@@ -38,7 +38,7 @@ const Recommended = ({categoryId}) => {
 
       relateddata.map((video,idx) => {
 
-        return <Link to={`/video/${video.snippet.categoryId}/${video.id}`} key={idx} className="recommended-video">
+        return <Link to={`/frontend-youtube-clone/video/${video.snippet.categoryId}/${video.id}`} key={idx} className="recommended-video">
 
                     <img src={video.snippet.thumbnails.medium.url} alt="" />
 
