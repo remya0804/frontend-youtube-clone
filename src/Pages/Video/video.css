@@ -1,0 +1,22 @@
+.video-page{
+
+    padding: 2% 20px 2% 20px;
+
+    display: flex;
+   justify-content: space-between;
+
+   flex-wrap: wrap;
+
+   /* background: black; */
+
+   
+}
+
+@media   (max-width:900px){
+
+    .video-page{
+
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}

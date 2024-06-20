@@ -1,0 +1,133 @@
+1. npm install react-router-dom
+
+    React Router Dom is used to build single-page applications i.e. applications that have many pages or components but the page is never refreshed instead the content is dynamically fetched based on the URL. This process is called Routing and it is made possible with the help of React Router Dom.
+
+    React Router DOM is an npm package that enables you to implement dynamic routing in a web app. It allows you to display pages and allow users to navigate them. It is a fully-featured client and server-side routing library for React.
+
+2. npm install moment  
+
+    The moment module is used for parsing, validating, manipulating, and displaying dates and times in JavaScript. 
+
+    Feature of moment module:
+
+    It is easy to get started and easy to use.
+    It is widely used and popular for formatting dates and time.
+
+    import moment from"moment";
+    moment().format("MM/DD/YYYY");
+
+
+    moment(item.snippet.publishedAt).fromNow()
+
+3. in index.js, put app inside browserrouter
+
+    import { BrowserRouter} from 'react-router-dom';
+
+     <BrowserRouter >
+
+        <App />
+            
+    </BrowserRouter>
+
+4. in app.js
+
+
+ <Routes>
+
+        <Route  path='/'  element={<Home />} />
+      </Routes>
+
+5. to add id to path :   /:idname
+
+    <Route  path='/video/:categoryId/:videoId'  element={<Video />} />
+
+6. to toggle to small menu;
+
+    set usestate in app.js        const [sidebar,setSidebar] = useState(true);
+
+    passed to navbar and Home
+
+    in nav bar, on menu icon added onclick event changed usestate value
+
+    from home passed usestate fn to side bar
+
+    in sidebar, if usestate val false applied new class to sidebardiv
+
+    the new class(small sidebar) value will, reduce width, and hide p and h3
+
+7. to add horizonal scrollbar to side bar and set scrollbar width thin,
+
+        overflow-x: hidden;
+ 
+        scrollbar-width: thin;
+
+8. created feed, imported in home
+
+    added feed in div home-container
+    if sidebar false(small side bar) then large-home-container class will be applied
+
+    <div className={`home-container ${sidebar ? '' : 'large-home-container'}` }>
+
+      <Feed />
+
+
+    </div>
+
+    style for,
+
+                .large-home-container{
+
+                padding-left: 7%;
+            }
+
+9. overflow visible on hover
+
+        .sidebar:hover{
+
+            overflow: visible;
+        }
+10. tootip on hover
+
+        put item to be hovered(p) and tooltip(span) in same div(wen hover on div, span will be visible)
+
+            <div className="tooltip">
+                        <p>Kongsuni and Friends</p> 
+                    <span>Kongsuni and Friends</span>
+                    
+                </div>
+
+11. wen overflow hidden, to view tooltip
+
+    position: fixed;
+
+12. changed div element(of card) in feed.jsx to link
+
+    added path 
+    
+        to: `Video/20/23435`
+
+    so that wen we click it, it will open video page
+
+13.  for video page , 2 container
+
+    1. video player, 2.recommended
+
+14. youtube data api
+
+1.  google
+2. google decelepors console
+3. enable apis and services
+4. create oroject
+5. search youtube data api v3
+6.enable
+7.create credentials
+9. cpoy key
+0. to get array, go to video categories
+
+
+
+
+
+
+
+

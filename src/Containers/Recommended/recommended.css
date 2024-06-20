@@ -1,0 +1,57 @@
+.recommended{
+
+    flex-basis: 30%;
+    /* background: lavender; */
+}
+
+.recommended-video{
+
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 8px;
+}
+
+.recommended-video img{
+
+    flex-basis: 47%;
+
+    width: 50%;
+
+}
+
+.recommended-video-info{
+
+    flex-basis: 47%;
+}
+.recommended-video-info h3{
+
+    font-size: 16px;
+
+    margin-bottom: 5px;
+}
+.recommended-video-info .channel-name {
+
+    font-size: 15px;
+
+    color: rgb(63, 61, 61);
+}
+.recommended-video-info .channel-title {
+
+    color: rgb(63, 61, 61);
+}
+.recommended-video-info .views {
+
+    font-size: 14px;
+
+    color: rgb(63, 61, 61);
+}
+
+@media   (max-width:900px){
+    .recommended{
+
+        flex-basis: 100%;
+        /* background: lavender; */
+    }
+    
+}
