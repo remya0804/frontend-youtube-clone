@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/frontend-youtube-clone/static/css/main.199e20d8.css",
+    "main.js": "/frontend-youtube-clone/static/js/main.f1855421.js",
+    "static/media/v2.mp4": "/frontend-youtube-clone/static/media/v2.d87e6b0487a6c06d7004.mp4",
+    "static/media/c1.avif": "/frontend-youtube-clone/static/media/c1.b5c7ed1381535fc91813.avif",
+    "static/media/t8.jpeg": "/frontend-youtube-clone/static/media/t8.0b513d49a07a57d89fcb.jpeg",
+    "static/media/woolfoo.jpeg": "/frontend-youtube-clone/static/media/woolfoo.609142d7e4751df8b83a.jpeg",
+    "static/media/logo.jpg": "/frontend-youtube-clone/static/media/logo.895e9b9fb982a7978855.jpg",
+    "static/media/t1.jpeg": "/frontend-youtube-clone/static/media/t1.f50391778a0e5509680c.jpeg",
+    "static/media/t2.jpeg": "/frontend-youtube-clone/static/media/t2.b6a5f45ec7b4f5bf23d5.jpeg",
+    "static/media/panda.jpeg": "/frontend-youtube-clone/static/media/panda.87edf79872bcc1f78f7f.jpeg",
+    "static/media/t4.jpeg": "/frontend-youtube-clone/static/media/t4.62490fecddeb538cb638.jpeg",
+    "static/media/t6.jpeg": "/frontend-youtube-clone/static/media/t6.2635000bd96a73f0449c.jpeg",
+    "static/media/t3.jpeg": "/frontend-youtube-clone/static/media/t3.a636ccf84e042f628de3.jpeg",
+    "static/media/paw.jpeg": "/frontend-youtube-clone/static/media/paw.ff4e34844521516f3a25.jpeg",
+    "index.html": "/frontend-youtube-clone/index.html",
+    "main.199e20d8.css.map": "/frontend-youtube-clone/static/css/main.199e20d8.css.map",
+    "main.f1855421.js.map": "/frontend-youtube-clone/static/js/main.f1855421.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.199e20d8.css",
+    "static/js/main.f1855421.js"
+  ]
+}
