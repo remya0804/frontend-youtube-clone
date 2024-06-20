@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 import './sidebar.css'
 
@@ -20,6 +20,9 @@ import { Link } from 'react-router-dom';
 
 
 const Sidebar = ({sidebar,category,setCategory}) => {
+
+
+
   return (
     
     // <div className={`sidebar ${sidebar ? '' : 'small-sidebar'}`}>

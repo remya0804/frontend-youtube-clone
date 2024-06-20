@@ -36,9 +36,11 @@ const Feed = ({category}) => {
     }
 
     useEffect(() => {
+            fetchData();
+        
 
-        fetchData();
-    }, [category])
+       
+    },[category])
 
 console.log(API_KEY);
 

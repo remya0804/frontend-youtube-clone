@@ -20,7 +20,7 @@ const Navbar = ({sidebar,setSidebar}) => {
 
         <IoMdMenu onClick={() => setSidebar(!sidebar)}/>
 
-        <Link to='/'><img src={logo} alt="" /></Link>
+        <Link to='/frontend-youtube-clone'><img src={logo} alt="" /></Link>
 
       </div>
 

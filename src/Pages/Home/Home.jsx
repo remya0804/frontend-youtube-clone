@@ -1,11 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './home.css'
 import Sidebar from '../../Containers/Sidebar/Sidebar'
 import Feed from '../../Containers/Feed/Feed'
 
-const Home = ({sidebar,category,setCategory}) => {
+const Home = ({sidebar}) => {
 
-  
+  const [category,setCategory] = useState(0);
 
   return (
     <>

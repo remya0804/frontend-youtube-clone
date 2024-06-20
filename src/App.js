@@ -11,7 +11,7 @@ function App() {
 
   const [sidebar,setSidebar] = useState(true);
 
-  const [category,setCategory] = useState(0);
+  // const [category,setCategory] = useState(0);
 
 
 
@@ -22,8 +22,9 @@ function App() {
 
       <Routes>
 
-        <Route  path='/'  element={<Home sidebar={sidebar}  category={category} setCategory={setCategory}/>} />
-        <Route  path='/video/:categoryId/:videoId'  element={<Video sidebar={sidebar} category={category} setCategory={setCategory}/>} />
+        {/* <Route  path='/'  element={<Home sidebar={sidebar}  />} /> */}
+        <Route  path='/frontend-youtube-clone'  element={<Home sidebar={sidebar}  />} />
+        <Route  path='/frontend-youtube-clone/video/:categoryId/:videoId'  element={<Video sidebar={sidebar}/>} />
 
       </Routes>
      
