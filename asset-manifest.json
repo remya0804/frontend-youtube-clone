@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/frontend-youtube-clone/static/css/main.d20b0e5a.css",
-    "main.js": "/frontend-youtube-clone/static/js/main.185f3d64.js",
+    "main.css": "/frontend-youtube-clone/static/css/main.d3431f9d.css",
+    "main.js": "/frontend-youtube-clone/static/js/main.6aa39d9a.js",
     "static/media/v2.mp4": "/frontend-youtube-clone/static/media/v2.d87e6b0487a6c06d7004.mp4",
     "static/media/c1.avif": "/frontend-youtube-clone/static/media/c1.b5c7ed1381535fc91813.avif",
     "static/media/t8.jpeg": "/frontend-youtube-clone/static/media/t8.0b513d49a07a57d89fcb.jpeg",
@@ -15,11 +15,11 @@
     "static/media/t3.jpeg": "/frontend-youtube-clone/static/media/t3.a636ccf84e042f628de3.jpeg",
     "static/media/paw.jpeg": "/frontend-youtube-clone/static/media/paw.ff4e34844521516f3a25.jpeg",
     "index.html": "/frontend-youtube-clone/index.html",
-    "main.d20b0e5a.css.map": "/frontend-youtube-clone/static/css/main.d20b0e5a.css.map",
-    "main.185f3d64.js.map": "/frontend-youtube-clone/static/js/main.185f3d64.js.map"
+    "main.d3431f9d.css.map": "/frontend-youtube-clone/static/css/main.d3431f9d.css.map",
+    "main.6aa39d9a.js.map": "/frontend-youtube-clone/static/js/main.6aa39d9a.js.map"
   },
   "entrypoints": [
-    "static/css/main.d20b0e5a.css",
-    "static/js/main.185f3d64.js"
+    "static/css/main.d3431f9d.css",
+    "static/js/main.6aa39d9a.js"
   ]
 }
